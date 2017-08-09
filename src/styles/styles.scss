@@ -43,7 +43,9 @@ body {
 /* hide the checkbox */
 
 /* style the primary nav */
-
+#primary-nav {
+  transition: right .5s;
+}
 /* if checkbox is shown, show the primary nav */
 
 /* -------------------  */
@@ -61,6 +63,10 @@ body {
 /* -------------------  */
 /* Style figure         */
 /* -------------------  */
+
+figure figcaption {
+  transition: bottom .5s;
+}
 
 /* ---------------------- */
 /* Style aside in article */
